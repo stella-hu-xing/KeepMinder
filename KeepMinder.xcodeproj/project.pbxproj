@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7900E302206502FA00FB3BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900E301206502FA00FB3BEF /* AppDelegate.swift */; };
+		7900E304206502FA00FB3BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900E303206502FA00FB3BEF /* ViewController.swift */; };
+		7900E306206502FA00FB3BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7900E305206502FA00FB3BEF /* Assets.xcassets */; };
+		7900E309206502FA00FB3BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7900E307206502FA00FB3BEF /* Main.storyboard */; };
+		7900E315206502FA00FB3BEF /* KeepMinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900E314206502FA00FB3BEF /* KeepMinderTests.swift */; };
+		7900E320206502FA00FB3BEF /* KeepMinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900E31F206502FA00FB3BEF /* KeepMinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7900E311206502FA00FB3BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7900E2F6206502FA00FB3BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7900E2FD206502FA00FB3BEF;
+			remoteInfo = KeepMinder;
+		};
+		7900E31C206502FA00FB3BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7900E2F6206502FA00FB3BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7900E2FD206502FA00FB3BEF;
+			remoteInfo = KeepMinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7900E2FE206502FA00FB3BEF /* KeepMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7900E301206502FA00FB3BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7900E303206502FA00FB3BEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7900E305206502FA00FB3BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7900E308206502FA00FB3BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7900E30A206502FA00FB3BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7900E30B206502FA00FB3BEF /* KeepMinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeepMinder.entitlements; sourceTree = "<group>"; };
+		7900E310206502FA00FB3BEF /* KeepMinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepMinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7900E314206502FA00FB3BEF /* KeepMinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepMinderTests.swift; sourceTree = "<group>"; };
+		7900E316206502FA00FB3BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7900E31B206502FA00FB3BEF /* KeepMinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepMinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7900E31F206502FA00FB3BEF /* KeepMinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepMinderUITests.swift; sourceTree = "<group>"; };
+		7900E321206502FA00FB3BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7900E2FB206502FA00FB3BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7900E30D206502FA00FB3BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7900E318206502FA00FB3BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7900E2F5206502FA00FB3BEF = {
+			isa = PBXGroup;
+			children = (
+				7900E300206502FA00FB3BEF /* KeepMinder */,
+				7900E313206502FA00FB3BEF /* KeepMinderTests */,
+				7900E31E206502FA00FB3BEF /* KeepMinderUITests */,
+				7900E2FF206502FA00FB3BEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7900E2FF206502FA00FB3BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7900E2FE206502FA00FB3BEF /* KeepMinder.app */,
+				7900E310206502FA00FB3BEF /* KeepMinderTests.xctest */,
+				7900E31B206502FA00FB3BEF /* KeepMinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7900E300206502FA00FB3BEF /* KeepMinder */ = {
+			isa = PBXGroup;
+			children = (
+				7900E301206502FA00FB3BEF /* AppDelegate.swift */,
+				7900E303206502FA00FB3BEF /* ViewController.swift */,
+				7900E305206502FA00FB3BEF /* Assets.xcassets */,
+				7900E307206502FA00FB3BEF /* Main.storyboard */,
+				7900E30A206502FA00FB3BEF /* Info.plist */,
+				7900E30B206502FA00FB3BEF /* KeepMinder.entitlements */,
+			);
+			path = KeepMinder;
+			sourceTree = "<group>";
+		};
+		7900E313206502FA00FB3BEF /* KeepMinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				7900E314206502FA00FB3BEF /* KeepMinderTests.swift */,
+				7900E316206502FA00FB3BEF /* Info.plist */,
+			);
+			path = KeepMinderTests;
+			sourceTree = "<group>";
+		};
+		7900E31E206502FA00FB3BEF /* KeepMinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7900E31F206502FA00FB3BEF /* KeepMinderUITests.swift */,
+				7900E321206502FA00FB3BEF /* Info.plist */,
+			);
+			path = KeepMinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7900E2FD206502FA00FB3BEF /* KeepMinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7900E324206502FA00FB3BEF /* Build configuration list for PBXNativeTarget "KeepMinder" */;
+			buildPhases = (
+				7900E2FA206502FA00FB3BEF /* Sources */,
+				7900E2FB206502FA00FB3BEF /* Frameworks */,
+				7900E2FC206502FA00FB3BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepMinder;
+			productName = KeepMinder;
+			productReference = 7900E2FE206502FA00FB3BEF /* KeepMinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7900E30F206502FA00FB3BEF /* KeepMinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7900E327206502FA00FB3BEF /* Build configuration list for PBXNativeTarget "KeepMinderTests" */;
+			buildPhases = (
+				7900E30C206502FA00FB3BEF /* Sources */,
+				7900E30D206502FA00FB3BEF /* Frameworks */,
+				7900E30E206502FA00FB3BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7900E312206502FA00FB3BEF /* PBXTargetDependency */,
+			);
+			name = KeepMinderTests;
+			productName = KeepMinderTests;
+			productReference = 7900E310206502FA00FB3BEF /* KeepMinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7900E31A206502FA00FB3BEF /* KeepMinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7900E32A206502FA00FB3BEF /* Build configuration list for PBXNativeTarget "KeepMinderUITests" */;
+			buildPhases = (
+				7900E317206502FA00FB3BEF /* Sources */,
+				7900E318206502FA00FB3BEF /* Frameworks */,
+				7900E319206502FA00FB3BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7900E31D206502FA00FB3BEF /* PBXTargetDependency */,
+			);
+			name = KeepMinderUITests;
+			productName = KeepMinderUITests;
+			productReference = 7900E31B206502FA00FB3BEF /* KeepMinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7900E2F6206502FA00FB3BEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Stella Hu";
+				TargetAttributes = {
+					7900E2FD206502FA00FB3BEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7900E30F206502FA00FB3BEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7900E2FD206502FA00FB3BEF;
+					};
+					7900E31A206502FA00FB3BEF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7900E2FD206502FA00FB3BEF;
+					};
+				};
+			};
+			buildConfigurationList = 7900E2F9206502FA00FB3BEF /* Build configuration list for PBXProject "KeepMinder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7900E2F5206502FA00FB3BEF;
+			productRefGroup = 7900E2FF206502FA00FB3BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7900E2FD206502FA00FB3BEF /* KeepMinder */,
+				7900E30F206502FA00FB3BEF /* KeepMinderTests */,
+				7900E31A206502FA00FB3BEF /* KeepMinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7900E2FC206502FA00FB3BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7900E306206502FA00FB3BEF /* Assets.xcassets in Resources */,
+				7900E309206502FA00FB3BEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7900E30E206502FA00FB3BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7900E319206502FA00FB3BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7900E2FA206502FA00FB3BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7900E304206502FA00FB3BEF /* ViewController.swift in Sources */,
+				7900E302206502FA00FB3BEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7900E30C206502FA00FB3BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7900E315206502FA00FB3BEF /* KeepMinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7900E317206502FA00FB3BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7900E320206502FA00FB3BEF /* KeepMinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7900E312206502FA00FB3BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7900E2FD206502FA00FB3BEF /* KeepMinder */;
+			targetProxy = 7900E311206502FA00FB3BEF /* PBXContainerItemProxy */;
+		};
+		7900E31D206502FA00FB3BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7900E2FD206502FA00FB3BEF /* KeepMinder */;
+			targetProxy = 7900E31C206502FA00FB3BEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7900E307206502FA00FB3BEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7900E308206502FA00FB3BEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7900E322206502FA00FB3BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7900E323206502FA00FB3BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7900E325206502FA00FB3BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeepMinder/KeepMinder.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JGTV7NMB6E;
+				INFOPLIST_FILE = KeepMinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StellaHU.KeepMinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7900E326206502FA00FB3BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeepMinder/KeepMinder.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JGTV7NMB6E;
+				INFOPLIST_FILE = KeepMinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StellaHU.KeepMinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		7900E328206502FA00FB3BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JGTV7NMB6E;
+				INFOPLIST_FILE = KeepMinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StellaHU.KeepMinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeepMinder.app/Contents/MacOS/KeepMinder";
+			};
+			name = Debug;
+		};
+		7900E329206502FA00FB3BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JGTV7NMB6E;
+				INFOPLIST_FILE = KeepMinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StellaHU.KeepMinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeepMinder.app/Contents/MacOS/KeepMinder";
+			};
+			name = Release;
+		};
+		7900E32B206502FA00FB3BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JGTV7NMB6E;
+				INFOPLIST_FILE = KeepMinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StellaHU.KeepMinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = KeepMinder;
+			};
+			name = Debug;
+		};
+		7900E32C206502FA00FB3BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JGTV7NMB6E;
+				INFOPLIST_FILE = KeepMinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StellaHU.KeepMinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = KeepMinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7900E2F9206502FA00FB3BEF /* Build configuration list for PBXProject "KeepMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7900E322206502FA00FB3BEF /* Debug */,
+				7900E323206502FA00FB3BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7900E324206502FA00FB3BEF /* Build configuration list for PBXNativeTarget "KeepMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7900E325206502FA00FB3BEF /* Debug */,
+				7900E326206502FA00FB3BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7900E327206502FA00FB3BEF /* Build configuration list for PBXNativeTarget "KeepMinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7900E328206502FA00FB3BEF /* Debug */,
+				7900E329206502FA00FB3BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7900E32A206502FA00FB3BEF /* Build configuration list for PBXNativeTarget "KeepMinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7900E32B206502FA00FB3BEF /* Debug */,
+				7900E32C206502FA00FB3BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7900E2F6206502FA00FB3BEF /* Project object */;
+}
