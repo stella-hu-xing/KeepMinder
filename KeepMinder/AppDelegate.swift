@@ -11,16 +11,50 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
+    //Status Item — application icon — in the menu bar with a fixed length that the user will see and use.
+    let firststatusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
+    let SecondestatusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+    let popOver = NSPopover()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+//         let button = statusItem.button {
+//            // can improve ?
+//            button.image = NSImage(named: NSImage.Name("StatusBarButtonImage"))
+//            button.action = #selector(togglePopover(_:))
+//        }
+//
+//         let content = statusItem.button {
+//            content.title = "all the content of the item"
+//        }
+        let button = firststatusItem.button!
+        button.image = NSImage(named: NSImage.Name("StatusBarButtonImage"))
+        button.action = #selector(togglePopover(_:))
+        
+        let item = SecondestatusItem.button!
+        item.title = "这里显示一条提醒事项内容"
+        popOver.contentViewController = ReminderViewController.freshController()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        
     }
 
-
+    @objc func togglePopover(_ sender: Any?) {
+        if popOver.isShown {
+            closePopover(sender: sender)
+        } else {
+            showPopover(sender: sender)
+        }
+    }
+    
+    func showPopover(sender: Any?) {
+        if let button = firststatusItem.button {
+            popOver.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
+        }
+    }
+    
+    func closePopover(sender: Any?) {
+        popOver.performClose(sender)
+    }
 }
 

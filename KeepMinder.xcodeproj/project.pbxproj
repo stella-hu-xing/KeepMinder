@@ -13,6 +13,8 @@
 		7900E309206502FA00FB3BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7900E307206502FA00FB3BEF /* Main.storyboard */; };
 		7900E315206502FA00FB3BEF /* KeepMinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900E314206502FA00FB3BEF /* KeepMinderTests.swift */; };
 		7900E320206502FA00FB3BEF /* KeepMinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900E31F206502FA00FB3BEF /* KeepMinderUITests.swift */; };
+		7900E3312065220500FB3BEF /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900E32F2065220500FB3BEF /* ReminderViewController.swift */; };
+		7900E3322065220500FB3BEF /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7900E3302065220500FB3BEF /* ReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		7900E31B206502FA00FB3BEF /* KeepMinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepMinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7900E31F206502FA00FB3BEF /* KeepMinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepMinderUITests.swift; sourceTree = "<group>"; };
 		7900E321206502FA00FB3BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7900E32F2065220500FB3BEF /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		7900E3302065220500FB3BEF /* ReminderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				7900E301206502FA00FB3BEF /* AppDelegate.swift */,
+				7900E32F2065220500FB3BEF /* ReminderViewController.swift */,
+				7900E3302065220500FB3BEF /* ReminderViewController.xib */,
 				7900E303206502FA00FB3BEF /* ViewController.swift */,
 				7900E305206502FA00FB3BEF /* Assets.xcassets */,
 				7900E307206502FA00FB3BEF /* Main.storyboard */,
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7900E306206502FA00FB3BEF /* Assets.xcassets in Resources */,
+				7900E3322065220500FB3BEF /* ReminderViewController.xib in Resources */,
 				7900E309206502FA00FB3BEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 			files = (
 				7900E304206502FA00FB3BEF /* ViewController.swift in Sources */,
 				7900E302206502FA00FB3BEF /* AppDelegate.swift in Sources */,
+				7900E3312065220500FB3BEF /* ReminderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
