@@ -12,7 +12,6 @@ class ReminderViewController: NSViewController {
 
     @IBOutlet var itemList: NSTableView!
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

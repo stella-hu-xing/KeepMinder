@@ -23,7 +23,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         button.action = #selector(togglePopover(_:))
         
         let item = SecondestatusItem.button!
-        item.title = "这里显示一条提醒事项内容"
+//        item.title = "这里显示一条提醒事项内容"
         popOver.contentViewController = ReminderViewController.freshController()
     }
 
