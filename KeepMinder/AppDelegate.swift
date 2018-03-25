@@ -17,15 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let popOver = NSPopover()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-//         let button = statusItem.button {
-//            // can improve ?
-//            button.image = NSImage(named: NSImage.Name("StatusBarButtonImage"))
-//            button.action = #selector(togglePopover(_:))
-//        }
-//
-//         let content = statusItem.button {
-//            content.title = "all the content of the item"
-//        }
+
         let button = firststatusItem.button!
         button.image = NSImage(named: NSImage.Name("StatusBarButtonImage"))
         button.action = #selector(togglePopover(_:))
