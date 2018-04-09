@@ -2,7 +2,7 @@
 //  EventMonitor.swift
 //  KeepMinder
 //
-//  Created by Xing Hu on 9/4/18.
+//  Created by Xing Hu
 //  Copyright © 2018 Stella Hu. All rights reserved.
 //
 
