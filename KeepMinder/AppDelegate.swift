@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  KeepMinder
 //
-//  Created by Xing Hu on 23/3/18.
+//  Created by Xing Hu
 //  Copyright © 2018 Stella Hu. All rights reserved.
 //
 
@@ -27,7 +27,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         button.image = NSImage(named: NSImage.Name("StatusBarButtonImage"))
         button.action = #selector(togglePopover(_:))
         
-
+        let item = SecondestatusItem.button!
+        item.title = "这里显示一条提醒事项内容"
+        
         popOver.contentViewController = ReminderViewController.freshController()
         
         eventMonitor = EventMonitor(mask: [.leftMouseDown, .rightMouseDown]){
@@ -44,14 +46,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     
     @objc func togglePopover(_ sender: Any?) {
-        let item = SecondestatusItem.button!
+        
         if popOver.isShown {
             closePopover(sender: sender)
             
-            item.title = "这里显示一条提醒事项内容"
+            
         } else {
             showPopover(sender: sender)
-             item.title = ""
+            
         }
     }
     
