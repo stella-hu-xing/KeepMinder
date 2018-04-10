@@ -1,6 +1,9 @@
 咕咕备忘录！
 ========================
 
+Ideally
+![](xiaoguo.JPG)
+
 ![](ScreenShot1.png)
 
 Finished:
