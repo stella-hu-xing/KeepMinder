@@ -8,6 +8,8 @@
 
 import Cocoa
 
+// master commit
+
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
